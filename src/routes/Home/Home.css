@@ -1,0 +1,28 @@
+.thumbs-wrapper {
+  display: none;
+}
+
+.car-img {
+  height: 300px;
+}
+
+.who-section {
+  padding: 20px 10px 20px 10px;
+  text-align: center;
+  background: #fff;
+  color: #002944;
+}
+
+.who-tag {
+  margin-bottom: 5px;
+}
+
+.who-border {
+  border-bottom: 1px solid #002944;
+  margin: 0 auto 20px auto;
+  width: 20%;
+}
+
+.who-p {
+  line-height: 1.5;
+}
