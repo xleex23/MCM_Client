@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { MenuItems } from './MenuItems';
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 class Header extends Component {
@@ -18,7 +19,7 @@ class Header extends Component {
   render() {
     return (
       <nav className="NavBarItems">
-        <h1 className="nav-home">MediationMN</h1>
+        <h1 className="nav-home"><Link to="/">MediationMN</Link></h1>
         <div className="menu-icon" onClick={this.toggleMenu}>
           <i className={this.state.isOpen ? 'fas fa-times' : 'fas fa-bars'}></i>
         </div>
@@ -26,9 +27,9 @@ class Header extends Component {
           {MenuItems.map((item, index) => {
             return (
               <li key={index} onClick={this.toggleMenu}>
-                <a className={item.cName} href={item.url}>
+                <Link className={item.cName} to={item.link}>
                   {item.title}
-                </a>
+                </Link>
               </li>
             )
           })}

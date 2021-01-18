@@ -4,9 +4,7 @@ import './CoreValues.css'
 class CoreValues extends Component {
   render() {
     return (
-      <div className="values-section"
-        
-      >
+      <div className="values-section">
         <h2 className="values-tag">Our Commitment to Clients</h2>
         <div className="values-border"></div>
         <div className="cards-container">

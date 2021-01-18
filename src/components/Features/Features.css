@@ -1,0 +1,68 @@
+.feature-container {
+  background: #fff;
+  max-width: 1100px;
+  margin: auto;
+  overflow: auto;
+  padding: 2rem;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.card-text {
+  background: #002944;
+  color: white;
+}
+
+.f-icon {
+  width: 100%;
+}
+
+.fcard {
+  box-shadow: 0 5px 10px 5px rgba(0,0,0,0.2);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  background: #002944;
+  margin-bottom: 2rem;
+}
+
+.fcard h3 {
+  margin-bottom: 2rem;
+}
+
+.fcard img {
+  height: 400px;
+}
+
+.fcard > div {
+  padding: 2rem;
+}
+
+.fcard:nth-child(even) img {
+  order: 2;
+}
+
+.route-btn {
+  display: inline-block;
+  background: #fff;
+  color: #002944;
+  padding: 0.8rem 1.8rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.route-btn:hover {
+  opacity: 0.8;
+}
+
+@media(max-width: 680px) {
+  .fcard {
+    display: block;
+  }
+  .fcard img {
+    height: 300px;
+  }
+}

@@ -24,15 +24,14 @@
   margin-right: 2rem;
 }
 
-.nav-links {
+.menu-links {
   color: #C2CFDF;
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
 
-.nav-links:hover {
+.menu-links:hover {
   background-color: #13496E;
-  border-radius: 4px;
   transition: all 0.2s ease-out;
 }
 
@@ -42,6 +41,11 @@
 
 .menu-icon {
   display: none;
+}
+
+.fa-caret-down {
+  color: #002944;
+  margin-left: 5px;
 }
 
 @media screen and (max-width: 1049px) {
@@ -69,17 +73,18 @@
     z-index: 1;
   }
 
-  .nav-links {
+  .menu-links {
     color: #002944;
     text-align: center;
     padding: 2rem;
     display: table;
     margin: auto;
+    width: 100vw;
   }
 
-  .nav-links:hover {
+  .menu-links:hover {
     background-color: #E7F0F5;
-    width: 100%;
+    width: 100vw;
     border-radius: 0;
   }
 
