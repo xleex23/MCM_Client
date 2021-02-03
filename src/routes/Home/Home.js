@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Header from '../../components/Header/Header';
 import CoreValues from '../../components/CoreValues/CoreValues';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './Home.css';

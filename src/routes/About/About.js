@@ -6,7 +6,7 @@ class About extends Component {
   render() {
     return (
       <section className="about-section">
-        <div className="about-head">
+        <div className="comp-head">
           <h2>About Us</h2>
         </div>
         <div>
@@ -22,7 +22,7 @@ class About extends Component {
             
             {ListItems.map((item, i) => {
               return (
-                <div className="word-container" style={{"--animation-order": i}}>
+                <div key={i} className="word-container" style={{"--animation-order": i}}>
                   <li key={i} className="expertise-list">{item.expertise}</li>
                 </div>
               )
