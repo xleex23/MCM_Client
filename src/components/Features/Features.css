@@ -14,10 +14,13 @@ a {
 .card-text {
   background: #002944;
   color: white;
+  text-align: left;
 }
 
 .f-icon {
-  width: 100%;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .fcard {
@@ -25,8 +28,9 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
-  background: #002944;
+  background: #ffff;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .fcard h3 {

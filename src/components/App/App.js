@@ -5,6 +5,7 @@ import About from '../../routes/About/About';
 import Header from '../Header/Header';
 import Contact from '../../routes/Contact/Contact';
 import './App.css';
+import Team from '../../routes/Team/Team';
 
 class App extends Component {
   
@@ -16,6 +17,7 @@ class App extends Component {
           <Route exact path={'/'} component={Home} />
           <Route exact path={'/about'} component={About} />
           <Route exact path={'/contact'} component={Contact} />
+          <Route exact path={'/team'} component={Team} />
         </Switch>
       </>
     )

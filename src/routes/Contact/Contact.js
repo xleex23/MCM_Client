@@ -36,7 +36,7 @@ function Contact() {
       'user_3Uzgl9UyrBZUR4uRThNjT'
     )
     .then(res => {
-      if(res.text == "OK"){
+      if(res.text === "OK"){
         alert('Email was sent!')
       }
       else {
@@ -74,7 +74,7 @@ function Contact() {
       </section>
 
       <div className="contact-info">
-        <a href="https://www.google.co.in/maps?q=7400+Lyndale+Avenue+South+Minneapolis,+MN+55423" className="address" target="_blank">7400 Lyndale Avenue South<br></br>Minneapolis, MN 55423</a>
+        <a href="https://www.google.co.in/maps?q=7400+Lyndale+Avenue+South+Minneapolis,+MN+55423" className="address" target="_blank" rel="noreferrer">7400 Lyndale Avenue South<br></br>Minneapolis, MN 55423</a>
         <p className="phone-num">612-237-6505</p>
       </div>
     </div>
