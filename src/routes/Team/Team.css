@@ -1,33 +1,45 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.team-members {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  /* grid-template-columns: 1fr 1fr 1fr 1fr */
+  grid-gap: 20px 30px;
 }
 
-.card {
+.team-summary {
+  text-align: center;
+  width: 85%;
+  margin: 40px auto;
+}
+
+.team-container h3 {
+  text-align: center;
+}
+
+.card2 {
   border-radius: 16px;
-  margin: 0 auto;
-  width: 500px;
+  margin: 40px auto;
+  width: 280px;
   max-width: 100%;
-  min-height: 500px;
+  /* min-height: 400px; */
+  height: 350px;
   box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
     0px 5px 8px 0px rgba(0, 0, 0, 0.14),
     0px 1px 14px 0px rgba(0, 0, 0, 0.12);
   overflow: hidden;
-  /* background-image: url(https://mediationcentermn.org/wp-content/uploads/2020/11/Arianna-Bloom-768x1024-1.jpg);
-  background-size: cover; */
+  background-size: cover;
 }
 
 .info {
   position: relative;
   width: 100%;
-  height: 500px;
+  height: 360px;
   background-color: #fff;
   transform: translateY(100%)
     translateY(-88px)
     translateZ(0);
   transition: transform 0.5s ease-out;
   opacity: 0.5;
+  
 }
 
 .info:before {
@@ -47,24 +59,25 @@
   transition: transform 0.5s ease;
 }
 
-.card:hover .info,
-.card:hover .info:before {
+.card2:hover .info,
+.card2:hover .info:before {
   transform: translateY(0) translateZ(0);
   opacity: 0.8;
   transition: 0.5s ease;
+  height: 500px;
 }
 
 .title {
   margin: 0;
-  padding: 24px;
-  font-size: 40px;
+  padding: 20px;
+  font-size: 24px;
   line-height: 1;
   color: rgba(0, 0, 0, 0.87);
 }
 
 .description {
   margin: 0;
-  padding: 0 24px 24px;
+  padding: 20px 24px 24px;
   font-size: 18px;
   line-height: 1.5;
 }

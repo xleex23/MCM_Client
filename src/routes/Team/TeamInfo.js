@@ -16,72 +16,72 @@ import Susan from "./MediationTeamPhotos/Susan-M.jpg";
 export const TeamInfo = [
   {
     pic: Aimee,
-    name: "",
-    details: ""
+    name: "Aimee Gourlay",
+    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. "
   },
   {
     pic: Milt,
-    name: "",
-    details: ""
+    name: "Milt Thomas",
+    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. "
   },
   {
     pic: Ari,
-    name: "",
-    details: ""
+    name: "Arianna Bloom",
+    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. "
   },
   {
     pic: Abdi,
-    name: "",
-    details: ""
+    name: "Abdi Ali",
+    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. "
   },
   {
     pic: Andrea,
-    name: "",
-    details: ""
+    name: "Andrea Niemi",
+    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. "
   },
   {
     pic: Ellen,
-    name: "",
-    details: ""
+    name: "Ellen Velasco-Thompson",
+    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. "
   },
   {
     pic: Jennifer,
-    name: "",
-    details: ""
+    name: "Jennifer Joseph",
+    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. "
   },
   {
     pic: Karen,
-    name: "",
-    details: ""
+    name: "Karen Irvin",
+    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. "
   },
   {
     pic: Katherine,
-    name: "",
-    details: ""
+    name: "Katherine Nevins",
+    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. "
   },
   {
     pic: Mark,
-    name: "",
-    details: ""
+    name: "Mark McCrea",
+    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. "
   },
   {
     pic: Sia,
-    name: "",
-    details: ""
+    name: "Sia Lo",
+    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. "
   },
   {
     pic: Stephen,
-    name: "",
-    details: ""
+    name: "Stephen Blair Venable",
+    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. "
   },
   {
     pic: Tobin,
-    name: "",
-    details: ""
+    name: "Tobin Lay",
+    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. "
   },
   {
     pic: Susan,
-    name: "",
-    details: ""
+    name: "Susan Mainzer",
+    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. "
   },
 ]
